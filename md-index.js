@@ -1,21 +1,6 @@
 const functionMd = require('./md-functions.js');
 const fs = require('fs');
 // let colors = require('colors');
-// const {existPath, absolutePath, convertPath, verifyPath} = require ('./md-functions');
-
-// const mdLinks = (path, options) => {
-//     return newPromise = ((resolve, reject) => {
-//         let arrayMDLinks = [];
-//         if(fs.existsSync(path)){
-//             console.log("El archivo EXISTE!");
-//             }else{
-//             console.log("El archivo NO EXISTE!");
-//             }
-//     }
-
-//     )
-// }
-
 // let arrayMDLinks = [];
 
 const mdLinks = (path, options) => {
