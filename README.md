@@ -17,7 +17,7 @@ Para poder instalar esta librería debes tener instalado Node.js de forma previa
 ` npm install antv-mdlinks`
 
 ## Guía de uso
-Con la librería ya instalada, debes ingresar el comando 'antv-mdlinks' junto con la ruta a analizar más una de las opciones dadas.
+Con la librería ya instalada, debes ingresar el comando 'antvmdlinks' junto con la ruta a analizar más una de las opciones dadas.
 
 `antvmdlinks <path> [option]`
 
