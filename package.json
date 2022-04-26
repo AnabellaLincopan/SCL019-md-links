@@ -1,13 +1,13 @@
 {
   "name": "antv-mdlinks",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "Module to check valid and invalid links in .md files ",
-  "main": "lib/md-index.js",
-  "engines": {
-    "node": ">=14.x"
-  },
+  "main": "./lib/md-index.js",
   "bin": {
-    "mdLinks": "./md-links-cli.js"
+    "antvmdlinks": "./md-links-cli.js"
+  },
+  "engines": {
+    "node": ">=14.x" 
   },
   "dependencies": {
     "colors": "^1.4.0",
