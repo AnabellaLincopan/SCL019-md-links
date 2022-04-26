@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const { mdLinks } = require ('./lib/md-index.js');
 
-console.log('\n' + '-------- Welcome to AntvMdLinks!🌞 --------'.cyan)
+console.log('\n' + '-------- Welcome to AntvMdLinks🌞 --------'.cyan)
 
 const userarg = process.argv;
 const options = {}
