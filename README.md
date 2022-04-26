@@ -32,7 +32,7 @@ Uso de --status:
 
 Uso de --validate:
 
-![ejemplovalidate](img/ejemplo_validate.PNG)
+![ejemplovalidate](img/ejemplo_status.PNG)
 
 ### Creado por:
 
