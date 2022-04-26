@@ -9,7 +9,7 @@
 ***
 
 ## Sobre AntvMdLinks
-AntvMdLinks es una librería que permite extraer, leer y verificar la validez de los links presentes dentro de archivos con formato .md (markdown). 
+Esta es una librería que permite extraer, leer y verificar la validez de los links presentes dentro de archivos con formato .md (markdown). 
 
 ## Instalación
 Para poder instalar esta librería debes tener instalado Node.js de forma previa. Luego debes ejecutar el siguiente comando en la terminal: 
@@ -22,7 +22,8 @@ Con la librería ya instalada, debes ingresar el comando 'antv-mdlinks' junto co
 `antv-mdlinks path option`
 
 ### Opciones
-`--validate` este argumento retorna las propiedades de los links presentes junto con su validación (ok o fail)
+`--validate` este argumento retorna las propiedades de los links presentes junto con su validación (ok o fail).
+
 `--stats` este argumento nos entrega la cantidad de links existentes dentro del archivo .md y la cantidad de links no duplicados que posee (total y unique).
 
 ### Visualización en la terminal
