@@ -22,12 +22,13 @@ Con la librería ya instalada, debes ingresar el comando 'antv-mdlinks' junto co
 `antv-mdlinks path option`
 
 ### Opciones
-`--validate` este argumento retorna las propiedades de los links presentes junto con su validación (ok o fail). Los links de color verde funcionan correctamente y los que se muestran con color rojo corresponden a links rotos o inválidos.
 
 `--stats` este argumento nos entrega la cantidad de links existentes dentro del archivo .md y la cantidad de links no duplicados que posee (total y unique).
 
+`--validate` este argumento retorna las propiedades de los links presentes junto con su validación (ok o fail). Los links de color verde funcionan correctamente y los que se muestran con color rojo corresponden a links rotos o inválidos.
+
 ### Visualización en la terminal
-Uso de --status:
+Uso de --stats:
 
 ![ejemplostatus](img/ejemplo_status.PNG)
 
