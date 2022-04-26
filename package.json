@@ -1,5 +1,5 @@
 {
-  "name": "mdlinks-antv",
+  "name": "antv-mdlinks",
   "version": "1.0.1",
   "description": "Module to check valid and invalid links in .md files ",
   "main": "lib/md-index.js",

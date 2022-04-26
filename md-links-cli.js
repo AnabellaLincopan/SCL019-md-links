@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 const { mdLinks } = require ('./lib/md-index.js');
 
+console.log('\n' + '-------- Welcome to AntvMdLinks!🌞 --------'.cyan)
+
 const userarg = process.argv;
 const options = {}
 if (userarg.some((x) => x === '--validate')) {
@@ -29,7 +31,7 @@ mdLinks(path, options).then((res) => {
             console.log(statusLink)
         }
     });
-    console.log('Work done!'.blue)
+    console.log('Work done! ✔️'.blue)
     console.log('\n')
 })
 .catch((err) => {console.log(err)})
