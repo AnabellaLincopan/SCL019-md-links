@@ -28,11 +28,11 @@ Con la librería ya instalada, debes ingresar el comando 'antv-mdlinks' junto co
 ### Visualización en la terminal
 Uso de --status:
 
-![ejemplostatus](img/ejemplo_validate.PNG)
+![ejemplostatus](img/ejemplo_status.PNG)
 
 Uso de --validate:
 
-![ejemplovalidate](img/ejemplo_status.PNG)
+![ejemplovalidate](img/ejemplo_validate.PNG)
 
 ### Creado por:
 
