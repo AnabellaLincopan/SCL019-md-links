@@ -11,7 +11,7 @@ if (userarg.some((x) => x === '--validate')) {
   if (userarg.some((x) => x === '--stats')) {
     options.showStats = true;
   }
-  const path = userarg[0] === 'mdLink' ? userarg[1] : userarg[2];
+  const path = userarg[0] === 'mdLinks' ? userarg[1] : userarg[2];
   
 
 mdLinks(path, options).then((res) => {
