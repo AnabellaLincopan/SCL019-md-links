@@ -5,7 +5,6 @@ const {
   existPath,
   getValidate,
   readingFile,
-  linksInfo,
 } = require("../lib/md-functions");
 const path = "test/testfile.md";
 const folder = "test/tests-files";
