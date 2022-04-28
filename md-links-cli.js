@@ -12,7 +12,7 @@ if (userarg.some((x) => x === '--stats')) {
     options.showStats = true;
 };
 
-const path = userarg[2]
+const path = userarg[2];
 
 mdLinks(path, options).then((res) => {
     res.forEach(element => {
@@ -22,10 +22,9 @@ mdLinks(path, options).then((res) => {
          if (options.validate && !options.showStats) {
              if (element.status >= 400) {
                     console.log('\x1B[31m' + validateInfo + '\x1B[31m')
-                } else if (element.status === 200) {
-                    console.log('\x1b[32m' + validateInfo + '\x1b[0m');
-                } else {
-                    console.log('\x1B[35m' + validateInfo + '\x1B[35m')
+                }
+                else {
+                    console.log('\x1b[32m' + validateInfo + '\x1b[0m')
                 }
         } else if (!options.validate && options.showStats) {
             console.log(statusLink)
